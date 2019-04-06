@@ -30,7 +30,7 @@ def bookRooms():
         else:
             end = date + " " + str(times[i] + 2) + ":00"
         i = i + 1
-        data = "formData%5Bfname%5D="+fname+"&formData%5Blname%5D="+lname+"&formData%5Bemail%5D="+email+"%40buffalo.edu&forcedEmail=&bookings%5B0%5D%5Bid%5D=1&bookings%5B0%5D%5Beid%5D=19761&bookings%5B0%5D%5Bgid%5D=5235&bookings%5B0%5D%5Blid%5D=3154&bookings%5B0%5D%5Bstart%5D="+start+"&bookings%5B0%5D%5Bend%5D="+end+"&returnUrl=%2Freserve%2Fsilverman"
+        data = "formData%5Bfname%5D="+fname+"&formData%5Blname%5D="+lname+"&formData%5Bemail%5D="+email+"%40buffalo.edu&forcedEmail=&bookings%5B0%5D%5Bid%5D=1&bookings%5B0%5D%5Beid%5D=19770&bookings%5B0%5D%5Bgid%5D=5235&bookings%5B0%5D%5Blid%5D=3154&bookings%5B0%5D%5Bstart%5D="+start+"&bookings%5B0%5D%5Bend%5D="+end+"&returnUrl=%2Freserve%2Fsilverman"
         response = requests.post(url,data=data,headers = head)
         response_json = response.json()
         print(response_json)
