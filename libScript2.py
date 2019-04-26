@@ -19,7 +19,7 @@ def bookRooms():
     url = "https://booking.lib.buffalo.edu/ajax/space/book"
     emails = ["freyagen", "krinahit", "vsarvepa", "vineelpa", "cpawa", "apillai"]
     i = 0
-    times = [10,13,15,17,19,21,23]
+    times = [10,12,14,16,18,20,22]
     for email in emails:
         print(email)
         print(times[i])
