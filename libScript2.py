@@ -5,7 +5,7 @@ from datetime import datetime, timedelta
 def bookRooms():
     fname = "fname"
     lname = "lname"
-    date = (datetime.today() + timedelta(days=3)).strftime("%Y-%m-%d")
+    date = (datetime.today() + timedelta(days=2)).strftime("%Y-%m-%d")
     print(date)
     #Header
     head = {"Accept" : "application/json, text/javascript, */*; q=0.01",
