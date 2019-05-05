@@ -10,7 +10,7 @@ def scheduled_job():
     libraryScript.bookRooms()
     script.bookRoom()
 
-@sched2.scheduled_job('cron', hour=00,minute=10)
+@sched2.scheduled_job('cron', hour=00,minute=33)
 def scheduled_job():
     libScript2.bookRooms()
 #    script.bookRoom()
